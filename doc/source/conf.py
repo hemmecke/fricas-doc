@@ -60,14 +60,14 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'FriCAS'
-copyright = u'2014-2015, FriCAS Team'
+copyright = u'2014-2017, FriCAS Team'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
 # built documents.
 #
 # The short X.Y version.
-version = '1.2.5'
+version = '1.3.1'
 # The full version, including alpha/beta/rc tags.
 release = version
 
@@ -316,8 +316,8 @@ rst_epilog = rst_epilog + """
 .. |PACKAGE_DOC_HOME| replace:: `%s Documentation Homepage`_
 .. _%s Documentation Homepage: http://fricas.github.io/
 
-.. |PACKAGE_BOOK| replace:: `Book`_
-.. _Book: %s
+.. |PACKAGE_BOOK| replace:: `Book (pdf)`_
+.. _Book (pdf): %s
 """ % (project.lower(), project,
        project, project,
        project, project,
