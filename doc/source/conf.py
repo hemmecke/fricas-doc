@@ -38,7 +38,7 @@ import os
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 spad_source_url = os.environ.get('SPADSOURCERUL')
 if on_rtd or spad_source_url == None:
-  spad_source_url = 'https://github.com/fricas/fricas/blob/master/src/algebra/'
+  spad_source_url = 'https://github.com/fricas/fricas/blob/master/src/algebra'
 
 # This is used to refer to .spad source files.
 # %s will be substituted by filename and line number looking like this:
@@ -67,7 +67,7 @@ copyright = u'2014-2017, FriCAS Team'
 # built documents.
 #
 # The short X.Y version.
-version = '1.3.1'
+version = '1.3.2'
 # The full version, including alpha/beta/rc tags.
 release = version
 
