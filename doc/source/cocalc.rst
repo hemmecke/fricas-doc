@@ -1,8 +1,8 @@
-FriCAS in SageMathCloud
-=======================
+FriCAS in COCALC (formerly SageMathCloud)
+=========================================
 
 You can try FriCAS commands online in
-`SageMathCloud <http://cloud.sagemath.org>`_.
+`CoCalc <http://cocalc.com>`_.
 
 You have to create a Sage Worksheet. Then prepend before every
 FriCAS command a line
@@ -13,4 +13,4 @@ so that your command is not interpreted as a Sage command, but
 rather as a FriCAS command.
 
 Look at a
-`FriCAS Demo <https://cloud.sagemath.com/projects/2b347771-02da-4d24-bfa8-a0d9d1ecb1df/files/demo-fricas.sagews>`_.
+`FriCAS Demo <https://cocalc.com/projects/2b347771-02da-4d24-bfa8-a0d9d1ecb1df/files/demo-fricas.sagews>`_.

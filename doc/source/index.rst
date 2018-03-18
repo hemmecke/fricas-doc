@@ -8,7 +8,7 @@ to abstract algebra. It can plot functions and has integrated help system.
 FriCAS is a fork (2007) of the `Axiom <http://axiom-developer.org/>`_
 computer algebra system.
 
-* |PACKAGE_BOOK|
+* |PACKAGE_BOOK| (official version for |PACKAGE_NAME|)
 
 * `Book (html, older version) <https://kfp.bitbucket.io/fricas-ug/>`_
 
@@ -17,6 +17,10 @@ computer algebra system.
 * `Conventions <http://axiom-wiki.newsynthesis.org/SpadFileConvention>`_
 
 * `Lanuage Differences <http://axiom-wiki.newsynthesis.org/LanguageDifferences>`_
+
+* `Description of the BOOT language <http://www.euclideanspace.com/prog/scratchpad/internals/boot/index.htm>`_
+
+* `Manual for the Boot Language <http://daly.axiom-developer.org/boot.tgz>`_
 
 * Examples
 
@@ -32,6 +36,10 @@ computer algebra system.
 
   * `FriCAS Integration <http://axiom-wiki.newsynthesis.org/FriCASIntegration>`_
 
+  * `Noncommutative group ring over commuting polynomials <http://axiom-wiki.newsynthesis.org/SandBoxNonCommutativeLaurentPolynomials>`_
+
+  * `Fun with functions <http://axiom-wiki.newsynthesis.org/FunWithFunctions>`_
+
 * `Introduction to Axiom <http://numbersandshapes.net/2008/05/an-introduction-to-axiom-1/>`_
 
 * `Blog posts about PanAxiom <http://numbersandshapes.net/category/axiom/>`_
@@ -45,7 +53,7 @@ computer algebra system.
 
 .. Commented out
    fricasbuild
-   sagemathcloud
+   cocalc
    fricasaldorspkg
 
    `Dancing Samba with Ramanujan Partition Congruences (Ralf Hemmecke)
