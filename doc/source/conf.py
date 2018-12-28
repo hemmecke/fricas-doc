@@ -60,14 +60,14 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'FriCAS'
-copyright = u'2014-2017, FriCAS Team'
+copyright = u'2014-2019, FriCAS Team'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
 # built documents.
 #
 # The short X.Y version.
-version = '1.3.3'
+version = '1.3.5'
 # The full version, including alpha/beta/rc tags.
 release = version
 
@@ -299,7 +299,11 @@ if on_rtd:
 """ % project
 
 
-rst_epilog = rst_epilog + """
+rst_epilog = """
+
+----
+
+""" + rst_epilog + """
 * |PACKAGE_HOME|
 * |PACKAGE_CODE|
 * |PACKAGE_DOC_HOME|
