@@ -5,7 +5,6 @@ The following people have contributed to FriCAS since its fork from
 Axiom in 2007.
 
 * Krystian Baclawski
-
 * Abhinav Baid
 * Martin Baker
 * Peter Broadbery
