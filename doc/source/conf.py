@@ -24,12 +24,21 @@ import sys
 # If your documentation needs a minimal Sphinx version, state it here.
 #needs_sphinx = '1.0'
 
+# Add "Edit on github link".
+# See https://gist.github.com/mgedmin/6052926
+import sys, os
+sys.path.insert(0, os.path.abspath('_ext'))
+
+edit_on_github_project = 'fricas/fricas-doc'
+edit_on_github_branch = 'master'
+
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
     'sphinx.ext.mathjax',
     'sphinx.ext.extlinks',
+    'edit_on_github',
 ]
 
 # See http://docs.readthedocs.org/en/latest/faq.html for this on_rtd stuff.
