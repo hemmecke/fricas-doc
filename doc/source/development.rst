@@ -9,11 +9,7 @@ Bugreports and patches should be sent to the FriCAS
 
 In fact, all public discussion currently happens on that mailing list.
 
-You can get the sources from the official SVN repository::
-
-    svn co svn://svn.code.sf.net/p/fricas/code/trunk fricas
-
-There is also a :ref:`fricas-mirror`.
+You can get the sources from the official git repository::
 
 Press the fork button on
 `https://github.com/fricas/fricas <https://github.com/fricas/fricas>`_
@@ -56,7 +52,6 @@ Development resources
    :maxdepth: 1
 
    spadstyleguide
-   fricas-git
 
 * `Conventions <http://axiom-wiki.newsynthesis.org/SpadFileConvention>`_
 

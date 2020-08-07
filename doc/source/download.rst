@@ -5,11 +5,7 @@ Download
   `http://fricas.sourceforge.net/download.html
   <http://fricas.sourceforge.net/download.html>`_.
 
-* Official sources via SVN (read-only access)::
-
-    svn co svn://svn.code.sf.net/p/fricas/code/trunk fricas
-
-* :ref:`fricas-mirror`::
+* Official sources via GIT (read-only access, fork it on github if you like::
 
     git clone https://github.com/fricas/fricas.git
 
