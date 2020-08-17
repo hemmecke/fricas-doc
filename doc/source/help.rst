@@ -1,7 +1,7 @@
 Help
 ====
 
-If you run into any problems with |PACKAGE_NAME|
+If you run into any problems with1 |PACKAGE_NAME|
 do not hesitate to send your problem to the |PACKAGE_NAME|
 `mailing list <https://groups.google.com/forum/#!forum/fricas-devel>`_:
 `fricas-devel@googlegroups.com <mailto:fricas-devel@googlegroups.com>`_.
@@ -15,14 +15,20 @@ of the mailing list.
 
 
 We are well aware of the steep learning curve of |PACKAGE_NAME|. By
-asking your questions you not only give you a chance to solve you
+asking your questions you not only give you a chance to solve your
 problem quickly, but also help us to improve |PACKAGE_NAME| by letting
 us know of what a user finds hard to accomplish with the system.
 
-Apart from `this website <https://fricas.github.io>`_ (in particular
-the |PACKAGE_BOOK|) there is also help available locally.
-We are working on a version of this website that you can use without
-internet connection.
+Apart from the |PACKAGE_HOME| (in particular the |PACKAGE_BOOK|) there
+is also help available locally. You can generate a local copy of the
+|PACKAGE_HOME| by doing the following
+::
+
+   git clone https://github.com/fricas/fricas-doc
+   cd fricas-doc
+   git clone https://github.com/fricas/fricas
+   make here copy
+   firefox html/index.html
 
 If you are working with |PACKAGE_NAME| in an operating system that has
 the `X Window System <https://en.wikipedia.org/wiki/X_Window_System>`_
