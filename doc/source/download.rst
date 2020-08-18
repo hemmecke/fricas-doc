@@ -12,7 +12,7 @@ Download
 * `FriCAS Docker Image <https://hub.docker.com/r/nilqed/fricas/>`_
   (`Announcement <https://groups.google.com/d/msgid/fricas-devel/1d9d4a04-1489-f879-f2ca-8798359540d0%40gmail.com>`_)
 
-* Here is a `list of version of FriCAS
+* Here is a `list of versions of FriCAS
   <https://repology.org/project/fricas/versions>`_
   that can be installed by the package manager of your operating
   system. Note, however, that these packages are not provided by
